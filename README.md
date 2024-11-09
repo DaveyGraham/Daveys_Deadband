@@ -1,2 +1,2 @@
-# Davey-s-Deadband
+# Daveys-Deadband
 A parallel wavefolder
