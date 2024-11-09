@@ -22,6 +22,6 @@ and that the final waveform is a version that has been 'collapsed down'.
 The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input.
 
 Buchla would mix in a DC offset to control the asymmetry of the wave. 
-To do this, replace the audio's input buffer with a simple op-amp mixer, and add another input for control voltage.
+To do this, replace the audio's input buffer with a summing amplifier, and add another input for control voltage.
 
 Resistor values were all chosen semi-arbitrarily and there is definitely room for improvement there.
