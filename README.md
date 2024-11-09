@@ -1,4 +1,4 @@
-# Daveys-Deadband
+# Daveys_Deadband
 My original design for a parallel wavefolder. It works using Don Buchla's deadband approach to parallel wavefolding.
 ![Screenshot (166)](https://github.com/user-attachments/assets/f6ca13f9-88ce-4b33-990b-c5e26f4059dd)
 
