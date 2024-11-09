@@ -1,5 +1,6 @@
 # Daveys-Deadband
 My original design for a parallel wavefolder. It works using Don Buchla's deadband approach to parallel wavefolding.
+![Screenshot (164)](https://github.com/user-attachments/assets/e225492f-fe6b-4ee8-bce7-9c1b1fe8a0fa)
 
 The input wave is sliced horizontally into separate voltage bands. Alternating bands are then inverted, and all the bands are mixed back together.
 At low amplitude, the input will occupy just one band and will pass through unchanged.
@@ -12,4 +13,5 @@ This results in a simpler circuit that's a little easier to parse.
 The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input.
 Buchla mixed in a DC offset to control the asymmetry of the wave. 
 To do this, replace the audio's input buffer with a simple op-amp mixer, and add another input for control voltage.
+
 
