@@ -21,7 +21,7 @@ Below: The seperated bands, measured at the 10k resistors after the diode chain.
 ![Screenshot (170)](https://github.com/user-attachments/assets/910cda5a-5d79-4871-9270-1e015568426b)
 
 
-Below: The same bands, alternating bands inverted. Note that positive and negative offsets will cancel each other out,
+Below: The same bands with alternating bands inverted. Note that positive and negative offsets will cancel each other out,
 and that the final waveform is a version that has been 'collapsed down'.
 
 ![Screenshot (171)](https://github.com/user-attachments/assets/7c63b4b7-cee6-4831-8ee4-62eae532ef7b)
