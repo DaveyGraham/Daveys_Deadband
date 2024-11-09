@@ -15,14 +15,17 @@ Increasing the wave further will push the wave back into a non-inverted band, an
 Where Buchla used op-amps to separate the bands, I'm using diodes to clamp the signal between reference voltages derived from a resistor ladder.
 This results in a simpler circuit that's a little easier to parse.
 
-![Screenshot (170)](https://github.com/user-attachments/assets/910cda5a-5d79-4871-9270-1e015568426b)
 
 The seperated bands, measured at the 10k resistors after the diode chain.
 
-![Screenshot (171)](https://github.com/user-attachments/assets/7c63b4b7-cee6-4831-8ee4-62eae532ef7b)
+![Screenshot (170)](https://github.com/user-attachments/assets/910cda5a-5d79-4871-9270-1e015568426b)
+
 
 The same bands, with every other band inverted. Note that positive and negative offsets will cancel each other out,
 and that the final waveform is a version that has been 'collapsed down'.
+
+![Screenshot (171)](https://github.com/user-attachments/assets/7c63b4b7-cee6-4831-8ee4-62eae532ef7b)
+
 
 The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input.
 
