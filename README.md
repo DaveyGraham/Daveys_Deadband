@@ -1,6 +1,6 @@
 # Daveys-Deadband
 My original design for a parallel wavefolder. It works using Don Buchla's deadband approach to parallel wavefolding.
-![Screenshot (164)](https://github.com/user-attachments/assets/e225492f-fe6b-4ee8-bce7-9c1b1fe8a0fa)
+![Screenshot (166)](https://github.com/user-attachments/assets/f6ca13f9-88ce-4b33-990b-c5e26f4059dd)
 
 The input wave is sliced horizontally into separate voltage bands. Alternating bands are then inverted, and all the bands are mixed back together.
 At low amplitude, the input will occupy just one band and will pass through unchanged.
