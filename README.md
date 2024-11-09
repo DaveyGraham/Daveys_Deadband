@@ -33,3 +33,5 @@ Buchla would mix in a DC offset to control the asymmetry of the wave.
 To do this, replace the audio's input buffer with a summing amplifier, and add another input for control voltage.
 
 Resistor values were all chosen semi-arbitrarily and there is definitely room for improvement there.
+
+For more info on Buchla's design, and to see how mine compares, check out [Aaron Lanterman's video here](https://www.youtube.com/watch?v=Yd3hxfaPqPA)
