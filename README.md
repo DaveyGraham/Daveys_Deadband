@@ -26,7 +26,7 @@ Below: The same bands with alternating bands inverted.
 ![Screenshot (171)](https://github.com/user-attachments/assets/7c63b4b7-cee6-4831-8ee4-62eae532ef7b)
 
 Note that positive and negative offsets will cancel each other out,
-and that the final waveform is a version that has been 'collapsed down'.
+and that the final waveform is a version that has been 'collapsed down', as pictured below. The resultant composite waveform has been overlayed in yellow.
 
 ![Screenshot (172)](https://github.com/user-attachments/assets/df1beb70-c474-4439-95be-c61b2aa229eb)
 
