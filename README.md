@@ -21,10 +21,14 @@ Below: The seperated bands, measured at the 10k resistors after the diode chain.
 ![Screenshot (170)](https://github.com/user-attachments/assets/910cda5a-5d79-4871-9270-1e015568426b)
 
 
-Below: The same bands with alternating bands inverted. Note that positive and negative offsets will cancel each other out,
-and that the final waveform is a version that has been 'collapsed down'.
+Below: The same bands with alternating bands inverted.
 
 ![Screenshot (171)](https://github.com/user-attachments/assets/7c63b4b7-cee6-4831-8ee4-62eae532ef7b)
+
+Note that positive and negative offsets will cancel each other out,
+and that the final waveform is a version that has been 'collapsed down'.
+
+![Screenshot (172)](https://github.com/user-attachments/assets/df1beb70-c474-4439-95be-c61b2aa229eb)
 
 
 The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input.
