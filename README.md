@@ -40,4 +40,6 @@ To do this, replace the audio's input buffer with a summing amplifier, and add a
 
 Resistor values were all chosen semi-arbitrarily and there is definitely room for improvement there.
 
+It's advised to use diodes with a low forward voltage drop, e.g. Schottky diodes for the clipping chain.
+
 For more info on Buchla's design, and to see how mine compares, check out [Aaron Lanterman's video here](https://www.youtube.com/watch?v=Yd3hxfaPqPA).
