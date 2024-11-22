@@ -33,7 +33,7 @@ The gives us a waveform that has been 'collapsed down', as pictured below. The r
 ![Screenshot (172)](https://github.com/user-attachments/assets/df1beb70-c474-4439-95be-c61b2aa229eb)
 
 
-The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input. Fihdi has developed a great version of this with a VCA included, enabling CV control. You can find that here: [Wavefolder with VCA](https://github.com/Fihdi/Eurorack/tree/main/Fold2)
+The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input. Fihdi has developed a great version of this with a VCA included, enabling CV control. You can find that here: [Wavefolder with VCA](https://github.com/Fihdi/Eurorack/tree/main/Fold2).
 
 Buchla would mix in a DC offset to control the asymmetry of the wave. 
 To do this, replace the audio's input buffer with a summing amplifier, and add another input for control voltage.
