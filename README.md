@@ -27,19 +27,20 @@ Below: The same bands with alternating bands inverted.
 
 ![Screenshot (171)](https://github.com/user-attachments/assets/7c63b4b7-cee6-4831-8ee4-62eae532ef7b)
 
-Note that positive and negative offsets will negate each other once summed together.
-The gives us a waveform that has been 'collapsed down', as pictured below. The resultant composite waveform has been overlayed in yellow.
+Each of these voltage bands will have it's own offset voltage. These positive and negative offsets will negate each other once summed together.
+The gives us a waveform that has been 'collapsed down', as pictured below. The resultant composite waveform has been overlayed in yellow. (Note, this isn't a terribly scientific graph, I've just manually lined up the input bands with the output waves)
 
 ![Screenshot (172)](https://github.com/user-attachments/assets/df1beb70-c474-4439-95be-c61b2aa229eb)
 
 
-The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input.
+The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input. Fihdi has developed a great version of this with a VCA included, enabling CV control. You can find that here: [Wavefolder with VCA](https://github.com/Fihdi/Eurorack/tree/main/Fold2)
 
 Buchla would mix in a DC offset to control the asymmetry of the wave. 
 To do this, replace the audio's input buffer with a summing amplifier, and add another input for control voltage.
 
 Resistor values were all chosen semi-arbitrarily and there is definitely room for improvement there.
 
-It's advised to use diodes with a low forward voltage drop, e.g. Schottky diodes for the clipping chain.
+I'd advise using diodes with a low forward voltage drop, e.g. Schottky diodes for the clipping chain. 
+I've had a lot of success with using 1N5817 diodes, as these give a very clean reflection. 1N4148 diodes on the other hand will clip for a while before reflecting, which may be more apt for distortion effects.
 
 For more info on Buchla's design, and to see how mine compares, check out [Aaron Lanterman's video here](https://www.youtube.com/watch?v=Yd3hxfaPqPA).
