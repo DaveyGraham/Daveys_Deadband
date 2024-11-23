@@ -9,6 +9,7 @@ An original design for a parallel wavefolder. It works using Don Buchla's deadba
 
 
 **How it works**
+
 The input wave is sliced horizontally into separate voltage bands.
 The upper and lower limits of these bands are determined by the reference voltages coming from the op-amps on the left hand column.
 Alternating bands are then inverted, then all the bands are mixed back together.
@@ -35,19 +36,23 @@ The gives us a waveform that has been 'collapsed down', as pictured below. The r
 ![Screenshot (172)](https://github.com/user-attachments/assets/df1beb70-c474-4439-95be-c61b2aa229eb)
 
 **Voltage control**
+
 The fold amount is controlled by the amplitude of the input. So, to add voltage control, it just needs a VCA attached to the input. Fihdi has developed a great version of this with a VCA included, enabling CV control. You can find that here: [Wavefolder with VCA](https://github.com/Fihdi/Eurorack/tree/main/Fold2).
 
 **Symmetry control**
+
 Buchla would mix in a DC offset to control the asymmetry of the wave. 
 To do this, replace the audio's input buffer with a summing amplifier, and add another input for control voltage.
 
 **Component selection**
+
 Resistor values were all chosen semi-arbitrarily and there is definitely room for improvement there.
 
 I'd advise using diodes with a low forward voltage drop, e.g. Schottky diodes for the clipping chain. 
 I've had a lot of success with using 1N5817 diodes, as these give a very clean reflection. 1N4148 diodes on the other hand will clip for a while before reflecting, which may be more apt for distortion effects.
 
 **Increasing number of folds**
+
 Without using additional op amps, an extra stage can be tapped at the bottom and top of the diode ladder using only 2 extra diodes, and six extra resistors, as pictured below. The gain/feedback resistor should be modified to compensate for this, as all the bands will now have a smaller width.
 
 ![Screenshot (180)](https://github.com/user-attachments/assets/61605926-f0b2-4385-ade6-72f411a5605c)
