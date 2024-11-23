@@ -61,5 +61,16 @@ More additional bands can be added between the +/-5v reference voltages using op
 
 ![Screenshot (182)](https://github.com/user-attachments/assets/70435ce6-d7d4-48cc-a4c0-ba0ba8d58219)
 
+**Working with different input amplitudes**
+
+To ensure that the input signal is distibuted across as many of the available bands as are available, the reference voltages at either end of the resistor voltage divider (+/-5v in my example) should be changed according to your input signal's amplitude.
+
+If the input signal's amplitude is unknown, then some form of peak detection could be used to set the upper and lower limits of the bands.
+Below is a very primative example of how peak detection could be used for this (untested IRL, and does not reset when presented with a signal smaller than a previous one, thought the capacitors will steadily leak until it reaches this newer value). 
+
+A more sophisticated implementation could digitally sample and average the signal over time, and generate a voltage accordingly.  
+
+![Screenshot (183)](https://github.com/user-attachments/assets/1f3c168e-4d3a-4948-91a3-eacf3f885714)
+
 
 For more info on Buchla's design, and to see how mine compares, check out [Aaron Lanterman's video here](https://www.youtube.com/watch?v=Yd3hxfaPqPA).
